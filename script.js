@@ -51,7 +51,7 @@ let boxes=document.getElementsByClassName("box");
 Array.from(boxes).forEach(element=>{
     let boxContent=element.querySelector(".box-content");// why no document.queryselector
     element.addEventListener('click',()=>{// why not e
-        if(boxContent.innerText===''){
+        if(boxContent.innerText==='' && !isgameover){
             boxContent.innerText=turn;
          
             turn=changeTurn();
