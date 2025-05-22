@@ -36,7 +36,6 @@ const checkWin=()=>{
       
             document.querySelector(".info").innerText=boxContents[e[0]].innerText+ " won!";
             isgameover=true;
-            document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width="100px";
              document.querySelector('.line').style.width="22vw";
             document.querySelector('.line').style.transform=`translate(${e[3]}vw,${e[4]}vw) rotate(${e[5]}deg)`;
         }
@@ -78,7 +77,7 @@ reset.addEventListener('click',()=>{
     isgameover=false;
       document.querySelector('.line').style.width="0px";
     document.getElementsByClassName("info")[0].innerText="Turn for "+ turn;
-     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width="0px";
+     
 
 
 })

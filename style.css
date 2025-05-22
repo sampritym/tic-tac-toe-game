@@ -52,10 +52,7 @@ nav ul{
     font-family:'Ancizar Sans','sans-serif';
 }
 
-.imgbox img{
-    width:0;
-    transition: width 1s ease-in-out;
-}
+
 
 .br-0{
     border-right: 0;
